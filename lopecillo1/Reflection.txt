@@ -1,0 +1,23 @@
+1. What does `await` do? Why do we need it?
+
+await allows a program to wait for a asynchronous operation to finish before continuing,
+ helping ensure that result are available and making the code more organized
+
+
+
+2. What happens if the API is down? How does our code handle that?
+
+if the API is down, the request will return as an error, and handles 
+it by using error handling using Try and catch so that the program 
+can continue running.
+
+
+
+
+
+3. What's the difference between `try` and `catch`?
+
+try contains the code that might cause an error, while catch executes 
+when an error occurs to handle it properly.
+
+
